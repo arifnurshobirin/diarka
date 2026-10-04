@@ -1,0 +1,6 @@
+.agents/
+.svelte-kit/
+node_modules/
+build/
+dist/
+bun.lock
