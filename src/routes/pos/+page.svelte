@@ -111,9 +111,9 @@
 	}
 </script>
 
-<div class="flex h-screen w-screen overflow-hidden bg-background font-sans text-foreground">
+<div class="flex h-screen w-screen overflow-hidden bg-[#F8FAFC] font-sans text-slate-800">
 	<!-- ================= PANEL KIRI: KATALOG (70%) ================= -->
-	<div class="flex-1 flex flex-col h-full bg-background relative border-r border-border shadow-sm z-10">
+	<div class="flex-1 flex flex-col h-full bg-[#F8FAFC] relative border-r border-slate-200 shadow-sm z-10">
 		<CatalogHeader
 			bind:searchQuery
 			bind:selectedCategory
@@ -126,7 +126,7 @@
 	</div>
 
 	<!-- ================= PANEL KANAN: KASIR (30%) ================= -->
-	<div class="w-[30%] min-w-[360px] max-w-[420px] bg-background flex flex-col h-full z-20 shadow-xl border-l border-border">
+	<div class="w-[30%] min-w-[360px] max-w-[420px] bg-white flex flex-col h-full z-20 shadow-xl border-l border-slate-200">
 		<!-- Daftar Belanja (Keranjang) -->
 		<CartList
 			{cart}

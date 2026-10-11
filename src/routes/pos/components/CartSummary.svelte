@@ -20,22 +20,22 @@
 	}
 </script>
 
-<div class="p-5 bg-muted/40 border-t border-border shrink-0">
-	<div class="flex justify-between text-sm font-medium text-muted-foreground mb-1">
+<div class="p-5 bg-[#F8FAFC] border-t border-slate-200 shrink-0">
+	<div class="flex justify-between text-sm font-medium text-slate-500 mb-1">
 		<span>Subtotal</span>
-		<span>{formatCurrency(subtotal)}</span>
+		<span class="text-slate-700 font-semibold">{formatCurrency(subtotal)}</span>
 	</div>
-	<div class="flex justify-between text-sm font-medium text-muted-foreground mb-1">
+	<div class="flex justify-between text-sm font-medium text-slate-500 mb-1">
 		<span>Diskon</span>
-		<span class="text-destructive">-{formatCurrency(totalDiscount)}</span>
+		<span class="text-rose-600 font-semibold">-{formatCurrency(totalDiscount)}</span>
 	</div>
-	<div class="flex justify-between text-sm font-medium text-muted-foreground mb-4">
+	<div class="flex justify-between text-sm font-medium text-slate-500 mb-4">
 		<span>Pajak (11%)</span>
-		<span>{formatCurrency(tax)}</span>
+		<span class="text-slate-700 font-semibold">{formatCurrency(tax)}</span>
 	</div>
-	<div class="flex justify-between items-end border-t border-border pt-3">
-		<span class="text-base font-bold text-foreground">Total</span>
-		<span class="text-3xl font-black text-foreground tracking-tight">
+	<div class="flex justify-between items-end border-t border-slate-200 pt-3">
+		<span class="text-base font-bold text-slate-800">Total</span>
+		<span class="text-3xl font-black text-slate-900 tracking-tight">
 			{formatCurrency(grandTotal)}
 		</span>
 	</div>
